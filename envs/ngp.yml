@@ -1,0 +1,33 @@
+name: ngp
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.9
+  - defaults::numpy
+  - defaults::scipy
+  - defaults::scikit-learn
+  - scipy
+  - conda-forge::pre-commit
+  - jupyter
+  - jupyterlab
+  - psutil
+  - pip
+  - pip:
+      - pyyaml
+      - fastparquet
+      - pyarrow
+      - pylint
+      - pycodestyle
+      - mypy
+      - pytest
+      - pytest-cov
+      - matplotlib
+      - seaborn
+      - tqdm
+      - commentjson
+      - imageio
+      - opencv-python-headless
+      - pybind11
+      - pyquaternion
