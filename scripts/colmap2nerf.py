@@ -202,6 +202,8 @@ if __name__ == "__main__":
 	TEXT_FOLDER = args.text
 	OUT_PATH = args.out
 	print(f"outputting to {OUT_PATH}...")
+	
+	#! This is shere camera.tyt get parsed.
 	with open(os.path.join(TEXT_FOLDER,"cameras.txt"), "r") as f:
 		angle_x = math.pi / 2
 		for line in f:
