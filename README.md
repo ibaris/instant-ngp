@@ -27,6 +27,13 @@ Keep reading for a guided tour of the application or, if you are interested in c
 
 If you use Linux, or want the [developer Python bindings](https://github.com/NVlabs/instant-ngp#python-bindings), or if your GPU is not listed above (e.g. Hopper, Volta, or Maxwell generations), you need to [build __instant-ngp__ yourself](https://github.com/NVlabs/instant-ngp#building-instant-ngp-windows--linux).
 
+### Python Environment
+To install a Python environment with all dependencies, run the following commands:
+
+```sh
+instant-ngp$ conda env create -f envs\ngp.yml
+instant-ngp$ conda activate ngp
+```
 
 ## Usage
 
